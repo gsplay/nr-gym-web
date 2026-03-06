@@ -1,0 +1,203 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* VARIABLES */
+
+:root {
+
+  --color-negro: #111;
+  --color-blanco: #ffffff;
+  --color-verde: #1f7a63;
+
+  --max-width: 1100px;
+
+}
+
+
+/* BASE */
+
+body {
+
+  font-family: system-ui, -apple-system, sans-serif;
+
+  background: var(--color-blanco);
+  color: var(--color-negro);
+
+  line-height: 1.6;
+
+}
+
+
+/* CONTENEDOR */
+
+main {
+
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 40px 20px;
+
+}
+
+
+/* HEADER */
+
+header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px;
+
+  border-bottom: 1px solid #eee;
+
+}
+
+
+/* NAV */
+
+nav a {
+
+  margin-left: 20px;
+  text-decoration: none;
+
+  color: var(--color-negro);
+
+  font-weight: 500;
+
+}
+
+nav a:hover {
+
+  color: var(--color-verde);
+
+}
+
+
+/* SECCIONES */
+
+section {
+
+  margin-bottom: 80px;
+
+}
+
+
+/* TITULOS */
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+
+  font-size: 26px;
+  margin-bottom: 20px;
+
+}
+
+h3 {
+
+  font-size: 20px;
+  margin-bottom: 10px;
+
+}
+
+
+/* HERO */
+
+#hero {
+
+  padding: 80px 20px;
+
+}
+
+#hero h2 {
+
+  font-size: 40px;
+  margin-bottom: 20px;
+
+}
+
+#hero p {
+
+  font-size: 18px;
+  margin-bottom: 30px;
+
+}
+
+
+/* LINKS */
+
+a {
+
+  display: inline-block;
+  text-decoration: none;
+
+}
+
+
+/* BOTONES */
+
+#hero a,
+#contacto a {
+
+  background: var(--color-verde);
+  color: white;
+
+  padding: 12px 22px;
+
+  border-radius: 6px;
+
+  font-weight: 600;
+
+}
+
+#hero a:hover,
+#contacto a:hover {
+
+  opacity: 0.9;
+
+}
+
+
+/* SERVICIOS Y PLANES */
+
+#servicios article,
+#planes article {
+
+  margin-bottom: 20px;
+
+}
+
+
+/* TESTIMONIOS */
+
+blockquote {
+
+  font-style: italic;
+  padding-left: 20px;
+  border-left: 3px solid var(--color-verde);
+
+}
+
+
+/* FOOTER */
+
+footer {
+
+  border-top: 1px solid #eee;
+
+  padding: 20px;
+
+  text-align: center;
+
+  font-size: 14px;
+
+}
